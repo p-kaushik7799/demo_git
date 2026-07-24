@@ -1,0 +1,73 @@
+body{
+    background-color:#f8f9fa;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.navbar-custom{
+    background:#fff;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.hero-title{
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.book-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:all 0.3s ease;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    height:100%;
+}
+
+.book-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+.book-cover{
+    height:280px;
+    object-fit:cover;
+    width:100%;
+}
+
+.book-title{
+    font-size:1rem;
+    font-weight:700;
+    min-height:48px;
+}
+
+.author{
+    color:#6c757d;
+    font-size:0.9rem;
+}
+
+.stats{
+    font-size:0.85rem;
+}
+
+.section-title{
+    font-weight:700;
+    margin-bottom:40px;
+}
+
+.pagination .page-link{
+    color:#212529;
+    border:none;
+    margin:0 3px;
+    border-radius:8px;
+}
+
+.pagination .active .page-link{
+    background:#212529;
+    color:#fff;
+}
+
+footer{
+    margin-top:80px;
+    padding:20px;
+    text-align:center;
+    color:#6c757d;
+}
